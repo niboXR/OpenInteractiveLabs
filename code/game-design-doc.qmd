@@ -9,13 +9,9 @@ format:
     toc: true
     toc-expand: true
     other-links: 
-      - text: View on Github
-        href: https://github.com/niboXR/first-game
-        icon: github
       - text: Project tasks and timeline
         href: https://github.com/users/niboXR/projects/3
         icon: github
-        class: no-icon
 ---
 
 ```{r, setup}
@@ -254,11 +250,3 @@ KindsOfTools --> ExampleTools
 
 
 ```
-
-## Documentation
-
-### Definitions
-
-#### Lived experiences {#sec-lived}
-
-{{< include documentation/definitions/lived-experiences.md >}}

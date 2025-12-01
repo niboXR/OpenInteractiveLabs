@@ -63,13 +63,6 @@
     "text": "The types and kinds of items\nThis flowchart describes the types and kinds of items and provides some examples of items that may or not be present in the final game.\n\n\n\n\n\nflowchart LR\nITEMS[(ITEMS)] --&gt; Wearable\nITEMS --&gt; | The types of items | Consumable\nITEMS --&gt; Tool\n\nKindsOfWearables[\"`headwear\n    topwear\n    legwear\n    footwear`\"]\nWearable --&gt; KindsOfWearables\n\nKindsOfConsumables[\"`food\n  drink\n  elixer\n`\"]\nConsumable --&gt; |The kinds of items| KindsOfConsumables\n\nKindsOfTools[\"`sword\n  shield\n  fishing pole\n  pickaxe\n  axe`\"]\nTool --&gt; KindsOfTools\n\nExampleWearables[\"`\n  brass helmet\n  dark tunic\n  leather pants\n  leather boots\n`\"]\n  \nKindsOfWearables --&gt; ExampleWearables\n\nExampleConsumables[\"`\n  beef stew\n  elixer of life\n`\"]\n\nKindsOfConsumables --&gt; |some examples of items|ExampleConsumables\n\nExampleTools[\"`\n  long sword\n  wooden shield\n  bamboo fishing pole\n  iron pickaxe\n  stone axe\n`\"]\n\nKindsOfTools --&gt; ExampleTools"
   },
   {
-    "objectID": "game-design-doc.html#documentation",
-    "href": "game-design-doc.html#documentation",
-    "title": "Solara Game Design Document",
-    "section": "Documentation",
-    "text": "Documentation\n\nDefinitions\n\nLived experiences\nThe sum of all experiences that appeal to one or more of the five physical human senses"
-  },
-  {
     "objectID": "game-design-doc.html#footnotes",
     "href": "game-design-doc.html#footnotes",
     "title": "Solara Game Design Document",

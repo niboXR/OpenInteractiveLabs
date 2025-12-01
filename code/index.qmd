@@ -5,6 +5,6 @@ format: html
 
 ## Studio Mission & Vision
 
-The mission is to improve our [lived experiences](#sec-lived) by creating digital worlds that foster experiences as meaningful as the ones from the physical world.
+The mission is to improve our **lived experiences** by creating digital worlds that foster experiences as meaningful as the ones from the physical world.
 
 The vision is to create worlds filled with sanctuary and adventure. And to empower people to create and share their worlds.

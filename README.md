@@ -1,4 +1,4 @@
-These are the files for my first game project.
+This repository has the code used to render my gave dev website.
 
 Here is a breakdown of what each folder contains:
 
