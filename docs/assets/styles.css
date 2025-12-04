@@ -1,0 +1,31 @@
+.definition-tooltip {
+  cursor: pointer;
+  text-decoration: 2px dotted underline;
+  position: relative; /* anchor for fallback positioning */
+}
+
+.definition-tooltip:hover {
+  text-decoration: 2px solid underline;
+  color: #a2e436;
+}
+
+
+.definition-tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.tooltiptext {
+  visibility: hidden;
+  background-color: #a2e436;
+  color: black;
+  min-width: 6rem;
+  padding: 0.6rem 0.9rem;
+  position: fixed; /* lets it follow cursor without clipping */
+  z-index: 1;
+  border-radius: 0.6rem;
+  transform: translate(-25%, -100%) scale(1);
+  box-shadow: 0 5px 14px rgba(0,0,0,0.12);
+
+
+
+}

@@ -2,13 +2,14 @@ color:
   palette:
     lime: "#a2e436"
     dark-grey: "#222222"
+    
+  primary: lime
   background: 
     light: white 
     dark: dark-grey
   foreground: 
     light: black 
     dark: white
-  primary: lime
 
 # logo: 
 #   medium: logo.png

@@ -1,0 +1,30 @@
+---
+# PARAMS #
+
+params:
+  StudioName: "Pluto Interactive Arts"
+  
+# YAML CONTENT #
+  
+title: "About `r params$StudioName`"
+format: html
+---
+```{r inititate-r}
+```
+
+```{r get-definitions}
+
+```
+
+## Studio Mission & Vision
+
+The mission is to improve our **lived experiences** by creating digital worlds that foster experiences as meaningful as the ones from the physical world.
+
+The vision is to create worlds filled with sanctuary and adventure. And to empower people to create and share their worlds.
+
+
+## Transparency statement
+
+All of our projects will be open-source and we encourage collaboration via our GitHub.
+
+We will provide clear definitions when dealing with <span class="definition-tooltip">big concepts<span class="tooltiptext">This is our working definition of a big concept</span></span>.

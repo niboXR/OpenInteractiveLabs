@@ -1,6 +1,6 @@
 project:
   type: website
-  output-dir: ../docs  # GitHub Pages will serve from here
+  output-dir: docs  # GitHub Pages will serve from here
   title: "Pluto Interactive Arts"
   render: 
     - index.qmd
@@ -20,8 +20,17 @@ website:
     left:
       - href: game-design-doc.qmd
         text: Solara
+    right: 
+      - text: "Theme" 
+        menu:
+          - text: "Light"
+            icon: brightness-high-fill
+          - text: "Dark"
+            icon: moon-stars-fill
+      
 format:
   html:
-    theme: custom.scss
+    css: assets/styles.css
+    theme: assets/custom.scss
       # light: custom.scss
       # dark: custom-dark.scss # I am trying to mimic brite but having difficulties

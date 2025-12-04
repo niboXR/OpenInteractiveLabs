@@ -66,17 +66,17 @@ These base values are adjusted slightly based on the character build [^1]. See @
 
 [^2]: Body Mass Index is calculated from a person's height and weight. While this measure is considered imperfect for real-world applications, it provides a single measure from which base stats can be derived.
 
-+-----------+----------+----------+---------+
-| Character | Vitality | Strength | Speed   |
-|           |          |          |         |
-| BMI       |          |          |         |
-+===========+==========+==========+=========+
-| Low       | ➖       | 🔻       | 🔺      |
-+-----------+----------+----------+---------+
-| Med       | ➖       | ➖       | ➖      |
-+-----------+----------+----------+---------+
-| High      | 🔺       | 🔺       | 🔻🔻    |
-+-----------+----------+----------+---------+
++-----------+----------+----------+-------+
+| Character | Vitality | Strength | Speed |
+|           |          |          |       |
+| BMI       |          |          |       |
++===========+==========+==========+=======+
+| Low       | ➖       | 🔻       | 🔺    |
++-----------+----------+----------+-------+
+| Med       | ➖       | ➖       | ➖    |
++-----------+----------+----------+-------+
+| High      | 🔺       | 🔺       | 🔻🔻  |
++-----------+----------+----------+-------+
 
 : Impact of BMI on character physical stats\
 🔺stat boost ➖no change 🔻stat penalty {#tbl-1}

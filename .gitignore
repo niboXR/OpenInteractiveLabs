@@ -2,3 +2,6 @@ first-game.Rproj
 .Rhistory
 /.Rproj.user
 /.obsidian
+
+/.quarto/
+**/*.quarto_ipynb
