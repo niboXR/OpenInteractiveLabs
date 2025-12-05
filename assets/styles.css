@@ -1,11 +1,10 @@
 .definition-tooltip {
   cursor: pointer;
-  text-decoration: 2px dotted underline;
-  position: relative; /* anchor for fallback positioning */
+  border-bottom: 2px dotted currentColor;
+  display: inline;
 }
 
 .definition-tooltip:hover {
-  text-decoration: 2px solid underline;
   color: #a2e436;
 }
 
