@@ -20,14 +20,14 @@ website:
     left:
       - href: game-design-doc.qmd
         text: Solara
-    right: 
-      - text: "Theme" 
-        menu:
-          - text: "Light"
-            icon: brightness-high-fill
-          - text: "Dark"
-            icon: moon-stars-fill
-      
+    # right:
+    #   - text: "Theme"
+    #     menu:
+    #       - text: "Light"
+    #         icon: brightness-high-fill
+    #       - text: "Dark"
+    #         icon: bi-moon-stars-fill
+
 format:
   html:
     css: assets/styles.css

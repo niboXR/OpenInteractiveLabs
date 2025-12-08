@@ -72,9 +72,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script src="site_libs/quarto-diagram/mermaid.min.js"></script>
-<script src="site_libs/quarto-diagram/mermaid-init.js"></script>
-<link href="site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 <link rel="stylesheet" href="assets/styles.css">
@@ -263,17 +260,6 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Solara</span></a>
   </li>  
 </ul>
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-theme" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Theme</span>
-    </a>
-    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-theme">    
-        <li class="dropdown-header">Light</li>
-        <li class="dropdown-header">Dark</li>
-    </ul>
-  </li>
-</ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
@@ -286,7 +272,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="99">
+        <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
   <ul>
@@ -297,37 +283,33 @@ ul.task-list li input[type="checkbox"] {
   </ul></li>
   <li><a href="#design" id="toc-design" class="nav-link" data-scroll-target="#design">Design</a>
   <ul class="collapse">
-  <li><a href="#gameplay" id="toc-gameplay" class="nav-link" data-scroll-target="#gameplay">Gameplay</a></li>
   <li><a href="#character" id="toc-character" class="nav-link" data-scroll-target="#character">Character</a>
   <ul class="collapse">
   <li><a href="#character-stats" id="toc-character-stats" class="nav-link" data-scroll-target="#character-stats">Character stats</a></li>
-  <li><a href="#character-creation" id="toc-character-creation" class="nav-link" data-scroll-target="#character-creation">Character creation</a></li>
-  <li><a href="#character-controller" id="toc-character-controller" class="nav-link" data-scroll-target="#character-controller">Character controller</a></li>
   </ul></li>
   <li><a href="#environment" id="toc-environment" class="nav-link" data-scroll-target="#environment">Environment</a>
   <ul class="collapse">
   <li><a href="#resources" id="toc-resources" class="nav-link" data-scroll-target="#resources">Resources</a></li>
   <li><a href="#items" id="toc-items" class="nav-link" data-scroll-target="#items">Items</a></li>
   </ul></li>
-  <li><a href="#sec-itemkinds" id="toc-sec-itemkinds" class="nav-link" data-scroll-target="#sec-itemkinds">The types and kinds of items</a></li>
   <li><a href="#economy" id="toc-economy" class="nav-link" data-scroll-target="#economy">Economy</a>
   <ul class="collapse">
   <li><a href="#sec-professions" id="toc-sec-professions" class="nav-link" data-scroll-target="#sec-professions">Professions</a></li>
   <li><a href="#trade" id="toc-trade" class="nav-link" data-scroll-target="#trade">Trade</a></li>
   </ul></li>
   </ul></li>
-  <li><a href="#addendum" id="toc-addendum" class="nav-link" data-scroll-target="#addendum">Addendum</a>
+  <li><a href="#gameplay" id="toc-gameplay" class="nav-link" data-scroll-target="#gameplay">Gameplay</a>
   <ul class="collapse">
-  <li><a href="#sec-justice" id="toc-sec-justice" class="nav-link" data-scroll-target="#sec-justice">Karmic Justice</a>
-  <ul class="collapse">
-  <li><a href="#karmic-penalties" id="toc-karmic-penalties" class="nav-link" data-scroll-target="#karmic-penalties">Karmic penalties</a></li>
-  <li><a href="#karmic-consequences" id="toc-karmic-consequences" class="nav-link" data-scroll-target="#karmic-consequences">Karmic consequences</a></li>
-  </ul></li>
+  <li><a href="#dungeons-encampments-and-strongholds" id="toc-dungeons-encampments-and-strongholds" class="nav-link" data-scroll-target="#dungeons-encampments-and-strongholds">Dungeons, encampments, and strongholds</a></li>
+  <li><a href="#events" id="toc-events" class="nav-link" data-scroll-target="#events">Events</a></li>
+  <li><a href="#quests" id="toc-quests" class="nav-link" data-scroll-target="#quests">Quests</a></li>
+  <li><a href="#world-bosses" id="toc-world-bosses" class="nav-link" data-scroll-target="#world-bosses">World Bosses</a></li>
   </ul></li>
   <li><a href="#tables-and-figures" id="toc-tables-and-figures" class="nav-link" data-scroll-target="#tables-and-figures">Tables and Figures</a>
   <ul class="collapse">
-  <li><a href="#physical-stats-1" id="toc-physical-stats-1" class="nav-link" data-scroll-target="#physical-stats-1">Physical stats</a></li>
-  <li><a href="#item-rarities" id="toc-item-rarities" class="nav-link" data-scroll-target="#item-rarities">Item Rarities</a></li>
+  <li><a href="#impact-of-character-build-on-physical-stats" id="toc-impact-of-character-build-on-physical-stats" class="nav-link" data-scroll-target="#impact-of-character-build-on-physical-stats">Impact of character build on physical stats</a></li>
+  <li><a href="#the-types-and-kinds-of-items" id="toc-the-types-and-kinds-of-items" class="nav-link" data-scroll-target="#the-types-and-kinds-of-items">The types and kinds of items</a></li>
+  <li><a href="#item-rarities" id="toc-item-rarities" class="nav-link" data-scroll-target="#item-rarities">Item rarities</a></li>
   </ul></li>
   </ul>
 <div class="quarto-other-links"><h2>Other Links</h2><ul><li><a href="https://github.com/users/niboXR/projects/3"><i class="bi bi-github"></i>Project tasks and timeline</a></li></ul></div></nav>
@@ -361,13 +343,13 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="game-description">Game description</h2>
 <p><strong>Solara</strong> is a stylized open-globe action-adventure fantasy game with support for up to 64 simultaneous players and built from the ground up for physical immersion.</p>
 <p>The world of Solara falls increasingly to darkness. The residents have abandoned their homes for shelter within the last standing city of Solara. The majority of the population has turned into mindless beasts. You awaken as a resident of Solara. Does the will of a hero or the will of beasts awaken with you?</p>
-<p>Take on the world alone or form an adventurer’s guild in a fantastical, yet-dangerous, quest to eradicate darkness and retake Solara. Explore the land to discover lost treasures, uncover knowledge, and unravel its mysteries. Master your trade or become a jack of all trades. You determine your path.</p>
+<p>Take on the world alone or form an adventurer’s guild in a fantastical, yet-dangerous, quest to eradicate darkness and retake Solara. Explore the land to discover lost treasures, uncover knowledge, and unravel its mysteries. Perfect your trade or become a jack of all trades. You determine your path.</p>
 </section>
 <section id="inspirations" class="level2">
 <h2 class="anchored" data-anchor-id="inspirations">Inspirations</h2>
-<p>No Mans Sky, while it took some time, eventually demonstrated the incredible power of procedural generation. Their implementation has resulted in a mind-bending sci-fi exploration game that has captivated me for hundreds of hours.</p>
 <p>Zelda: Breathe of the Wild is an illustrious open-world action adventure game with some basic RPG elements. The simple, yet compelling style and mechanics contributes to a world that breathes.</p>
 <p>OG virtual reality rpg games like Zenith: The Last City, Karnage Chronicles, and Vengeful Rites that first immersed me in fantasy worlds.</p>
+<p>No Mans Sky, while it took some time, eventually demonstrated the incredible power of procedural generation. Their implementation has resulted in a mind-bending sci-fi exploration game that has captivated me for hundreds of hours.</p>
 <section id="the-goal-is-to-learn-from-the-successes-and-failures-of-early-virtual-reality-games-and-apply-the-programming-wizardry-of-procedural-world-building-in-pursuit-of-infinite-immersive-worlds-as-compelling-as-hyrule." class="level5">
 <h5 class="anchored" data-anchor-id="the-goal-is-to-learn-from-the-successes-and-failures-of-early-virtual-reality-games-and-apply-the-programming-wizardry-of-procedural-world-building-in-pursuit-of-infinite-immersive-worlds-as-compelling-as-hyrule.">The goal is to learn from the successes and failures of early virtual reality games and apply the programming wizardry of procedural world-building in pursuit of infinite immersive worlds as compelling as Hyrule.</h5>
 </section>
@@ -375,15 +357,12 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="design" class="level1">
 <h1>Design</h1>
-<section id="gameplay" class="level2">
-<h2 class="anchored" data-anchor-id="gameplay">Gameplay</h2>
-<p>The world is filled with distinct characters and environments that drive fresh quest opportunities. Dungeons and encampments can be taken down for experience and looted for treasure. Mastering a trade will prove valuable in the ultimate quest to defeat the world boss and restore the world’s peace.</p>
-</section>
 <section id="character" class="level2">
 <h2 class="anchored" data-anchor-id="character">Character</h2>
-<p>Characters are all humanoids that exist in the world, playable and non-playable. The following stats apply to both.</p>
+<p>Characters are humanoids that exist in the world, both playable and non-playable. Players create their characters using a custom character creator.</p>
 <section id="character-stats" class="level3">
 <h3 class="anchored" data-anchor-id="character-stats">Character stats</h3>
+<p>These stats apply to <em>all</em> characters</p>
 <section id="physical-stats" class="level4">
 <h4 class="anchored" data-anchor-id="physical-stats">Physical stats</h4>
 <p>A character has three physical stats:</p>
@@ -392,22 +371,37 @@ ul.task-list li input[type="checkbox"] {
 <li><p><strong>Strength</strong> - determines how much damage a character can deal. A character’s base strength stat is <strong>10</strong> damage. This means that a fully effective blow will deal <strong>10</strong> points in damage to another character’s vitality or an item’s durability.</p></li>
 <li><p><strong>Speed</strong> - determines how quickly a character can move. A character’s base walking speed is <strong>INSERT WLK_SPD</strong> and base running speed is <strong>INSERT RUN_SPD</strong>.</p></li>
 </ul>
-<p>These base values are adjusted slightly based on the character build <a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>. See <a href="#tbl-1" class="quarto-xref">Table&nbsp;1</a> for a generalized overview of this system based on character BMI <a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>. Physical stats can be further modified via items and consumables.</p>
+<p>Base physical stat values are weighted based on the character build <a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>. <a href="#tbl-1" class="quarto-xref">Table&nbsp;1</a> provides discrete examples of the impact character BMI <a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> has on a character’s physical stats.</p>
+<p>Physical stats can be further modified via items.</p>
 </section>
 <section id="standing" class="level4">
 <h4 class="anchored" data-anchor-id="standing">Standing</h4>
 <p>A character’s standing indicates their threat and morality to others. The two standing stats are:</p>
 <ul>
 <li><p><strong>Level</strong> - an evolving measure of a character’s accomplishments. It is derived from enemy encounter outcomes. A character’s default and minimum level is <strong>1</strong>. The maximum level is <strong>100</strong>.</p></li>
-<li><p><strong>Karma</strong> - an evolving measure of a character’s deeds. It is derived from your actions. The quests you take on, the enemies you kill, and even your environmental impact will dictate your place in this world. The default karma is <strong>NEUTRAL</strong>. Creating a world with karmic justice requires deep considerations for both the penalties and consequences. See <a href="#sec-justice" class="quarto-xref">Section&nbsp;3.1</a> on Karmic Justice for more.</p></li>
+<li><p><strong>Karma</strong> - an evolving measure of a character’s deeds. It is derived from your actions. The quests you take on, the enemies you kill, and even your environmental impact will dictate your place in this world. Karma ranges from <strong>DARK</strong> to <strong>HERO</strong> with a default value of <strong>NEUTRAL</strong>. Characters can also have <strong>GOOD</strong> or <strong>BAD</strong> karma.</p></li>
+</ul>
+<section id="sec-justice" class="level5">
+<h5 class="anchored" data-anchor-id="sec-justice">Karmic Justice</h5>
+<p>Creating a world with karmic justice requires deep consideration of the actions that deserve karmic penalties and the consequences of accumulating bad karma penalties.</p>
+<section id="karmic-penalties" class="level6">
+<h6 class="anchored" data-anchor-id="karmic-penalties">Karmic penalties</h6>
+<ul>
+<li>Character killing and looting</li>
+<li>Taking on and completing dark quests</li>
+<li>Resource overconsumption and waste</li>
+</ul>
+</section>
+<section id="karmic-consequences" class="level6">
+<h6 class="anchored" data-anchor-id="karmic-consequences">Karmic consequences</h6>
+<ul>
+<li>Loss of safe zone and housing</li>
+<li>Increased drop rates</li>
+<li>Bounties</li>
 </ul>
 </section>
 </section>
-<section id="character-creation" class="level3">
-<h3 class="anchored" data-anchor-id="character-creation">Character creation</h3>
 </section>
-<section id="character-controller" class="level3">
-<h3 class="anchored" data-anchor-id="character-controller">Character controller</h3>
 </section>
 </section>
 <section id="environment" class="level2">
@@ -430,101 +424,17 @@ ul.task-list li input[type="checkbox"] {
 <li><p><strong>consumables</strong> are crafted from ingredients by cooks and from resources by alchemists</p></li>
 <li><p><strong>tools</strong> are crafted from resources by toolmakers</p></li>
 </ul>
-<p>Every item in Solara will fit into one of these types. Below is a visual representation of our item hierarchy.</p>
-<div class="cell" data-layout-align="default">
-<div class="cell-output-display">
-<div>
-<p></p><figure class="figure"><p></p>
-<div>
-<pre class="mermaid mermaid-js">flowchart LR
-ITEMS[(ITEMS)] --&gt; Wearable
-ITEMS --&gt; | The types of items | Consumable
-ITEMS --&gt; Tool
-
-KindsOfWearables["`headwear
-    topwear
-    legwear
-    footwear`"]
-Wearable --&gt; KindsOfWearables
-
-KindsOfConsumables["`food
-  drink
-  elixer
-`"]
-Consumable --&gt; |The kinds of items| KindsOfConsumables
-
-KindsOfTools["`sword
-  shield
-  fishing pole
-  pickaxe
-  axe`"]
-Tool --&gt; KindsOfTools
-
-ExampleWearables["`
-  brass helmet
-  dark tunic
-  leather pants
-  leather boots
-`"]
-  
-KindsOfWearables --&gt; ExampleWearables
-
-ExampleConsumables["`
-  beef stew
-  elixer of life
-`"]
-
-KindsOfConsumables --&gt; |some examples of items|ExampleConsumables
-
-ExampleTools["`
-  long sword
-  wooden shield
-  bamboo fishing pole
-  iron pickaxe
-  stone axe
-`"]
-
-KindsOfTools --&gt; ExampleTools
-
-</pre>
-</div>
-<p></p></figure><p></p>
-</div>
-</div>
-</div>
-<p>Items have varying <strong>durability</strong> which can be restored by crafting professionals. Items can also be broken down for partial resources. Items can be carried between worlds and parallel world items are sometimes considered exotic<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a>. Item rarity is based on the reference world’s items. See <a href="#tbl-2" class="quarto-xref">Table&nbsp;2</a> below for rarity calculations.</p>
+<p><a href="#tbl-2" class="quarto-xref">Table&nbsp;2</a> provides examples for the types and kinds of items found in Solara.</p>
+<p>Items have varying <strong>durability</strong> which can be restored through crafting. Unneeded items can also be sold or broken down for partial resources.</p>
+<p>Item <strong>rarity</strong> is based on global inventory, see <a href="#tbl-3" class="quarto-xref">Table&nbsp;3</a> below for rarity calculations. In addition to item rarity, items produced using resources from a parallel world are considered <em>exotic</em> when the resources are not natively available.</p>
 </section>
-</section>
-<section id="sec-itemkinds" class="level2">
-<h2 class="anchored" data-anchor-id="sec-itemkinds">The types and kinds of items</h2>
 </section>
 <section id="economy" class="level2">
 <h2 class="anchored" data-anchor-id="economy">Economy</h2>
 <section id="sec-professions" class="level3">
 <h3 class="anchored" data-anchor-id="sec-professions">Professions</h3>
-<p>There are various professions in resources gathering and crafting.</p>
-<section id="gathering-professions" class="level4">
-<h4 class="anchored" data-anchor-id="gathering-professions">Gathering professions</h4>
-<p>The following professions are dedicated to the gathering of natural resources and ingredients from the environment:</p>
-<ul>
-<li><p>Hunter</p></li>
-<li><p>Fisher</p></li>
-<li><p>Forager</p></li>
-<li><p>Miner</p></li>
-<li><p>Logger</p></li>
-</ul>
-</section>
-<section id="crafting-professions" class="level4">
-<h4 class="anchored" data-anchor-id="crafting-professions">Crafting professions</h4>
-<p>The following professions are dedicated to crafting items from resources gathered from the environment:</p>
-<ul>
-<li><p>Outfitter</p></li>
-<li><p>Toolmaker</p></li>
-<li><p>Cook</p></li>
-<li><p>Barkeep</p></li>
-<li><p>Alchemist</p></li>
-</ul>
-</section>
+<p>There are various professions in resources gathering and crafting that characters will encounter. Each profession will have distinct and compelling mechanics and quest lines.</p>
+<p>Foragers, hunters, anglers, miners, and loggers are the professions will learn how to gather natural resources and ingredients from the environment, while outfitters, toolmakers, cooks, and alchemists craft these resources into valuable items.</p>
 </section>
 <section id="trade" class="level3">
 <h3 class="anchored" data-anchor-id="trade">Trade</h3>
@@ -533,38 +443,29 @@ KindsOfTools --&gt; ExampleTools
 </section>
 </section>
 </section>
-<section id="addendum" class="level1">
-<h1>Addendum</h1>
-<section id="sec-justice" class="level2">
-<h2 class="anchored" data-anchor-id="sec-justice">Karmic Justice</h2>
-<p>A character’s karma can range from <strong>DARK</strong> to <strong>HERO</strong>. Characters can also have <strong>GOOD</strong>, <strong>BAD</strong>, and <strong>NEUTRAL</strong> karma. A character’s karma can be positively impacted through the completion of hero quests. More importantly, karma penalties are levied for various misdeeds and the consequences bad karma can be steep.</p>
-<section id="karmic-penalties" class="level3">
-<h3 class="anchored" data-anchor-id="karmic-penalties">Karmic penalties</h3>
-<ul>
-<li>Character killing and looting</li>
-<li>Dark quests</li>
-<li>Resource overconsumption and waste</li>
-</ul>
+<section id="gameplay" class="level1">
+<h1>Gameplay</h1>
+<section id="dungeons-encampments-and-strongholds" class="level2">
+<h2 class="anchored" data-anchor-id="dungeons-encampments-and-strongholds">Dungeons, encampments, and strongholds</h2>
 </section>
-<section id="karmic-consequences" class="level3">
-<h3 class="anchored" data-anchor-id="karmic-consequences">Karmic consequences</h3>
-<ul>
-<li>Loss of safe zone and housing</li>
-<li>Beast deformation?</li>
-<li>Increased drop rates</li>
-<li>Bounties</li>
-</ul>
+<section id="events" class="level2">
+<h2 class="anchored" data-anchor-id="events">Events</h2>
 </section>
+<section id="quests" class="level2">
+<h2 class="anchored" data-anchor-id="quests">Quests</h2>
+</section>
+<section id="world-bosses" class="level2">
+<h2 class="anchored" data-anchor-id="world-bosses">World Bosses</h2>
 </section>
 </section>
 <section id="tables-and-figures" class="level1">
 <h1>Tables and Figures</h1>
-<section id="physical-stats-1" class="level2">
-<h2 class="anchored" data-anchor-id="physical-stats-1">Physical stats</h2>
+<section id="impact-of-character-build-on-physical-stats" class="level2">
+<h2 class="anchored" data-anchor-id="impact-of-character-build-on-physical-stats">Impact of character build on physical stats</h2>
 <div id="tbl-1" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-tbl figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Table&nbsp;1: Impact of BMI on character physical stats<br>
+Table&nbsp;1: Impact of character build on physical stats<br>
 🔺stat boost ➖no change 🔻stat penalty
 </figcaption>
 <div aria-describedby="tbl-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -573,7 +474,7 @@ Table&nbsp;1: Impact of BMI on character physical stats<br>
 <col style="width: 16%">
 <col style="width: 15%">
 <col style="width: 15%">
-<col style="width: 11%">
+<col style="width: 13%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -609,15 +510,75 @@ Table&nbsp;1: Impact of BMI on character physical stats<br>
 </figure>
 </div>
 </section>
-<section id="item-rarities" class="level2">
-<h2 class="anchored" data-anchor-id="item-rarities">Item Rarities</h2>
+<section id="the-types-and-kinds-of-items" class="level2">
+<h2 class="anchored" data-anchor-id="the-types-and-kinds-of-items">The types and kinds of items</h2>
 <div id="tbl-2" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-tbl figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Table&nbsp;2: Rarities<br>
+Table&nbsp;2: The types and kinds of items<br>
 
 </figcaption>
 <div aria-describedby="tbl-2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 23%">
+<col style="width: 30%">
+<col style="width: 43%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Types</th>
+<th>Kinds</th>
+<th>Examples</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Wearable</td>
+<td>headwear<br>
+topwear<br>
+legwear<br>
+footwear</td>
+<td><code>brass helmet</code><br>
+<code>dark tunic</code><br>
+<code>leather pants</code><br>
+<code>leather boots</code></td>
+</tr>
+<tr class="even">
+<td>Consumable</td>
+<td>food<br>
+elixer</td>
+<td><code>beef stew</code><br>
+<code>elixer of life</code></td>
+</tr>
+<tr class="odd">
+<td>Tool</td>
+<td>sword<br>
+shield<br>
+fishing pole<br>
+pickaxe<br>
+axe</td>
+<td><code>long sword</code><br>
+<code>wooden shield</code><br>
+<code>bamboo fishing pole</code><br>
+<code>iron pickaxe</code><br>
+<code>stone axe</code></td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+</section>
+<section id="item-rarities" class="level2">
+<h2 class="anchored" data-anchor-id="item-rarities">Item rarities</h2>
+<div id="tbl-3" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-3-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;3: Item rarities<br>
+
+</figcaption>
+<div aria-describedby="tbl-3-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <table class="caption-top table">
 <thead>
 <tr class="header">
@@ -669,7 +630,6 @@ Table&nbsp;2: Rarities<br>
 <li id="fn1"><p>This design is inspired by Bonelab’s avatar system and intended to incentivize thoughtful and diverse character creation.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 <li id="fn2"><p>Body Mass Index is calculated from a person’s height and weight. While this measure is considered imperfect for real-world applications, it provides a single measure from which base stats can be derived.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 <li id="fn3"><p>A procedural system combines parameters for switching between categorical values and random sampling for continuous values. Note that available parameters and probability curves will likely be impacted by other values.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn4"><p>A parallel world is one whose environment produces any number of distinct resources and ingredients not available in Solara. An item is considered exotic if it is located in a world without access to the resources it is crafted.<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
