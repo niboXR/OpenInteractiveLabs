@@ -3,7 +3,7 @@
 
 params:
   StudioName: "Open Interactive Labs"
-  StudioAbb: "oi !abs"
+  StudioAbb: "oi!"
   
 # YAML CONTENT #
   
