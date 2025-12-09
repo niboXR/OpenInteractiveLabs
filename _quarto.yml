@@ -5,6 +5,7 @@ project:
   render: 
     - index.qmd
     - game-design-doc.qmd
+    - technical-docs.qmd
 website: 
   title: Pluto IA
   navbar:
