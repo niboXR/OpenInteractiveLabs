@@ -2,7 +2,8 @@
 # PARAMS #
 
 params:
-  StudioName: "Pluto Interactive Arts"
+  StudioName: "Open Interactive Labs"
+  StudioAbb: "OI Labs"
   
 # YAML CONTENT #
   
@@ -16,7 +17,7 @@ format: html
 
 ```
 
-## Studio Mission & Vision
+## Mission & Vision
 
 The mission is to improve our **lived experiences** by creating digital worlds that foster experiences as meaningful as the ones from the physical world.
 

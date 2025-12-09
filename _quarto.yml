@@ -1,13 +1,13 @@
 project:
   type: website
   output-dir: docs  # GitHub Pages will serve from here
-  title: "Pluto Interactive Arts"
+  title: "Open Interactive Labs"
   render: 
     - index.qmd
     - game-design-doc.qmd
     - technical-docs.qmd
 website: 
-  title: Pluto IA
+  title: OI Labs
   navbar:
     search: false
     # tools:
@@ -20,7 +20,7 @@ website:
     #background: dark
     left:
       - href: game-design-doc.qmd
-        text: Solara
+        text: Games
     # right:
     #   - text: "Theme"
     #     menu:
